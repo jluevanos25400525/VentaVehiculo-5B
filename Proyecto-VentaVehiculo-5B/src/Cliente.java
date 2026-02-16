@@ -27,7 +27,43 @@ public class Cliente {
         
     }
  
-    // 03 - Metodo toString
+    // 03 - Metodos
+    
+    public String getRs() {
+        
+        return this.rs;
+        
+    }
+    
+    public String getRfc() {
+        
+        return this.rfc;
+        
+    }
+    
+    public String getEmail() {
+        
+        return this.email;
+        
+    }
+    
+    public void setRs(String rs) {
+        
+        this.rs = rs;
+        
+    }
+    
+    public void setRfc(String rfc) {
+        
+        this.rfc = rfc;
+        
+    }
+    
+    public void setEmail(String email) {
+        
+        this.email = email;
+        
+    }
     
     @Override
     
