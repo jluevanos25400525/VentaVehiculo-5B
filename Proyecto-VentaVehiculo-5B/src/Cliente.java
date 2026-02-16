@@ -70,9 +70,9 @@ public class Cliente {
     public String toString() {
         
         String cadena;
-        cadena = "rs = " + rs 
-                + "\nrfc = " + rfc 
-                + "\nemail = " + email; 
+        cadena = "Rs = " + this.rs 
+                + "\nRfc = " + this.rfc 
+                + "\nEmail = " + this.email; 
         
         return cadena;
         
